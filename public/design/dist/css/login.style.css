@@ -1,0 +1,96 @@
+html{
+    background: #fffffb ;
+}
+.btn-gold {
+    color: #ffffff;
+    /*background-color: #007bff;*/
+    background-color: #1b8383;
+    border-color: #1b8383;
+    /*border-color: #68631e;*/
+    box-shadow: none;
+}
+
+.btn-gold:hover {
+    color: #ffffff;
+    /*background-color: #0069d9;*/
+    background-color: #1b7070;
+    border-color: #1B7070;
+}
+
+.btn-gold:focus, .btn-gold.focus {
+    box-shadow: none, 0 0 0 0 rgba(104, 99, 30, 0.5);
+}
+
+.btn-gold.disabled, .btn-gold:disabled {
+    color: #ffffff;
+    background-color: #68631e;
+    border-color: #68631e;
+}
+
+.btn-gold:not(:disabled):not(.disabled):active, .btn-gold:not(:disabled):not(.disabled).active,
+.show > .btn-gold.dropdown-toggle {
+    color: #ffffff;
+    background-color: #b0a941;
+    border-color: #b0a93e;
+}
+
+.btn-gold:not(:disabled):not(.disabled):active:focus, .btn-gold:not(:disabled):not(.disabled).active:focus,
+.show > .btn-gold.dropdown-toggle:focus {
+    /*box-shadow: 0 0 0 0 rgba(38, 143, 255, 0.5);*/
+    box-shadow: 0 0 0 0 rgba(104, 99, 30, 0.5);
+}
+
+a {
+    color: #847d25;
+    text-decoration: none;
+    background-color:
+        transparent;
+}
+
+a:hover {
+    color: #534f14;
+    text-decoration: none;
+}
+
+.card-header {
+    background-color: #f4fffc;
+    color: #1b8480;
+}
+
+.login-page{
+    display: contents;
+}
+
+body:not(.sidebar-mini-md) .main-header {
+    margin-left: 0;
+}
+
+.navbar-gold {
+    background-color: #ffffff;
+    color: #68631e;
+}
+
+@media (min-width: 576px) {
+    .login-box, .register-box {
+        width: 40%;
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .navbar-gold {
+        background-color: #fff;
+        color: #68631e;
+        padding-left: 10rem;
+        padding-right: 15rem;
+    }
+}
+
+.text-gold{
+    color: #68631e !important;
+}
+
+
+
+
+
